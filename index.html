@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tenses</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/compromise@latest/builds/compromise.min.js"></script>
+  </head>
+  <body>
+    <center>
+      <div class="inputbox">
+        <h3>Enter your Sentence</h3>
+        <input type="text" id="inputText" />
+        <div class="container">
+          <div class="button1">
+            <button class="buttonStyle" onclick="pastTense()">
+              Past Tense
+            </button>
+          </div>
+          <div class="button2">
+            <button class="buttonStyle" onclick="presentTense()">
+              Present tense
+            </button>
+          </div>
+          <div class="button3">
+            <button class="buttonStyle" onclick="futureTense()">
+              Future Tense
+            </button>
+          </div>
+        </div>
+      </div>
+      <h1 style="color: white" id="outputText"></h1>
+    </center>
+
+    <div class="footer">
+      The accuracy is decent, not 100%, you may face problems with Gerunds.
+      (continuous forms)
+    </div>
+    <script src="bundle.js"></script>
+  </body>
+</html>
